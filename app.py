@@ -201,7 +201,7 @@ async def process_improvement(message: types.Message):
         await message.answer("Спасибо за ваше предложение!")
         message_none = 1
           # Замените на нужный ID чата
-        await bot.send_message(chat_id='7263418923', text=f'{message.from_user.full_name} ({message.from_user.username}): {improvement_text}')
+        await bot.send_message(chat_id='твой id', text=f'{message.from_user.full_name} ({message.from_user.username}): {improvement_text}')
 
         with open("add.txt", "a", encoding="utf-8") as file:
             file.write(f"{message.from_user.full_name} ({message.from_user.username}): {improvement_text}\n")
