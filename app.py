@@ -51,7 +51,7 @@ def photo_save(path, name):
 
 
 
-API_TOKEN = '7773206389:AAGKW8oNFiYCsCjxoa_mN8xVIT_Khu66wSU'
+API_TOKEN = 'токен'
 
 bot = Bot(token=API_TOKEN, parse_mode=ParseMode.HTML)
 dp = Dispatcher(storage=MemoryStorage())
